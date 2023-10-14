@@ -1,0 +1,59 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 25/12/2019 16:10
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon.eot");
+  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+
+.flaticon-worker:before { content: "\f100"; }
+.flaticon-sketch:before { content: "\f101"; }
+.flaticon-house:before { content: "\f102"; }
+.flaticon-architect:before { content: "\f103"; }
+.flaticon-engineer:before { content: "\f104"; }
+.flaticon-construction-plan:before { content: "\f105"; }
+.flaticon-column:before { content: "\f106"; }
+.flaticon-view:before { content: "\f107"; }
+.flaticon-upload:before { content: "\f108"; }
+.flaticon-add-user:before { content: "\f109"; }
+.flaticon-price-tag:before { content: "\f10a"; }
+.flaticon-home:before { content: "\f10b"; }
+.flaticon-delete:before { content: "\f10c"; }
+.flaticon-upload-1:before { content: "\f10d"; }
+.flaticon-down-arrow:before { content: "\f10e"; }
+.flaticon-left-arrow:before { content: "\f10f"; }
+.flaticon-facebook:before { content: "\f110"; }
+.flaticon-twitter:before { content: "\f111"; }
+.flaticon-linkedin:before { content: "\f112"; }
+.flaticon-snapchat:before { content: "\f113"; }
+.flaticon-youtube:before { content: "\f114"; }
+.flaticon-distance:before { content: "\f115"; }
+.flaticon-street-view:before { content: "\f116"; }
+.flaticon-add:before { content: "\f117"; }
+.flaticon-remove:before { content: "\f118"; }
+.flaticon-email:before { content: "\f119"; }
+.flaticon-phone-call:before { content: "\f11a"; }
+.flaticon-share:before { content: "\f11b"; }
+.flaticon-upload-2:before { content: "\f11c"; }

@@ -1,0 +1,401 @@
+@media (max-width:1300px)
+ {
+	.joinUs .items .item
+	{
+		width:190px;
+		margin-left:3px;
+		margin-right:3px;
+	}
+	
+	.owl-theme .owl-controls .owl-buttons div
+	{
+		right:0;
+		opacity: 0.5
+	}
+	
+	.owl-theme .owl-controls .owl-buttons div.owl-prev
+	{
+		left:0
+	}
+	
+}
+
+
+/*Big Size Screens*/
+@media (max-width: 1200px)
+{
+	.whatBtn
+	{
+		width:140px;
+	}
+	
+	.header .logo
+	{
+		width:230px;
+	}
+	.header .listMenu li a
+	{
+		font-size:16px;
+		padding:0 10px
+	}
+	
+	.joinUs .items .item
+	{
+		width:159px;
+		min-height: 150px;
+		padding-top:20px;
+	}
+	.joinUs .items .item .title
+	{
+		font-size:16px;
+	}
+}
+
+/* small Screens & tablets & Smart phone */
+@media (max-width: 991px) 
+{
+	
+	.header
+	{
+		padding:15px 0
+	}
+	
+	.headerHeight
+	{
+		height:75px;
+	}
+	
+	.header .listMenu
+	{
+		display:none;
+	}
+	
+	.header .logo,
+	.whatBtn
+	{
+		margin-top:0;
+	}
+	
+	.header .whatBtn
+	{
+		display:none;
+	}
+	
+	.header .openMenu
+	{
+		float:left;
+		color:#000;
+		z-index:999;
+		font-size:20px;
+		cursor:pointer;
+		display:block;
+		margin-top:5px;
+		border:2px solid #000;
+		width:30px;
+		height:30px;
+		text-align:center;
+		line-height:27px;
+		-webkit-transition:all 0.3s;
+		-moz-transition:all 0.3s;
+		-o-transition:all 0.3s;
+		transition:all 0.3s;
+	}
+
+	.itemService .details ul li
+	{
+		font-size:14px;
+	}
+	
+	.joinUs .items .item
+	{
+		float:none;
+		display:inline-block
+	}
+	
+	.aboutUs .details
+	{
+		padding-top:40px;
+	}
+	
+	.footer .footerDown
+	{
+		display:block;
+		text-align:center
+	}
+	
+	.footer .copyrights
+	{
+		margin-bottom:20px;
+	}
+
+	.footer .social
+	{
+		display:inline-block;
+		margin-bottom:20px;
+	}
+	
+	.footer .logoTaha
+	{
+		margin-bottom:15px;
+		display:block
+	}
+	
+	.servicePage .details
+	{
+		padding:0 20px 20px;
+	}
+	
+	.contactUs .contactInfo
+	{
+		min-height:520px;
+	}
+	
+	.contactUs .form
+	{
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	.mapContact iframe
+	{
+		height:250px;
+	}
+	
+	.contactUs .contactInfo .titleInfo
+	{
+		font-size:35px;
+	}
+	
+	.contactUs .contactInfo .info li a
+	{
+		font-size:20px;
+	}
+	
+	.pagiDiv .next,
+	.pagiDiv .prev
+	{
+		display:none;
+	}
+	
+	.footer
+	{
+		padding-top:70px;
+	}
+	
+	.footer .whatBtn
+	{
+		position:static;
+		display:block;
+		margin:0 auto 30px;
+		float:none;
+		
+	}
+
+}
+
+/* Small Screens */
+@media (min-width: 768px) and (max-width: 991px) 
+{
+	
+	
+}
+
+/* Mobile & Tablets */
+@media (max-width: 767px) 
+{
+	.aboutUs .mask:before
+	{
+		max-width:100%;
+		max-height:100%;
+	}
+	
+	.owl-theme .owl-controls .owl-buttons div
+	{
+		display:none;
+	}
+	.joinModal .modal-dialog
+	{
+		width:auto
+	}
+	
+	.searchStyle
+	{
+		padding-left:0
+	}
+	
+	.searchStyle .selectStyle
+	{
+		width:100%;
+	}
+	
+	.searchStyle .selectStyle:first-of-type
+	{
+		border-left:none;
+		border-bottom:1px solid #EBEBEB
+	}
+	
+	.searchStyle button
+	{
+		width:100%;
+		position:static;
+		width:100%;
+	}
+	
+	.searchStyle .selectStyle .listSelect li .subSelect
+	{
+		display:none;
+	}
+	
+	.detailsPage .contentHead .views,
+	.detailsPage .contentHead .shareDiv,
+	.detailsPage .contentHead .space, 
+	.detailsPage .contentHead .location
+	{
+		float:none;
+		display:block;
+		margin-right:0;
+	}
+	
+	.detailsPage .contentHead .shareDiv
+	{
+		position:absolute;
+		left:20px;
+		top:auto;
+		bottom:calc(100% + 40px);
+	}
+	
+	.detailsPage .contentHead .contentImg
+	{
+		position:static;
+		margin:-50px auto 20px;
+	}
+	
+	.detailsPage .details,
+	.accordions
+	{
+		padding:0 15px 30px;
+	}
+	
+	.accordions
+	{
+		padding-top:30px;
+	}
+	
+	.formJoin .formStyle
+	{
+		padding:20px 15px
+	}
+	
+	.formJoin .maxSize,
+	.checkStyle
+	{
+		float:none;
+		text-align:center;
+		margin-bottom:20px;
+	}
+	
+	.formJoin .formStyle .labelUpload span
+	{
+		display:block;
+		padding-left:22px;
+	}
+	
+	.formJoin .formStyle .servAdded2
+	{
+		height:50px;
+		padding-left:0;
+		padding-right:0
+	}
+	
+	.formJoin .formStyle .servAdded2 p
+	{
+		display:none;
+	}
+	
+	.checkStyle
+	{
+		text-align:right
+	}
+	
+	.formJoin .formStyle button
+	{
+		float:none;
+		width:100%;
+	}
+	
+	.formJoin .formStyle .socialInputs .previewSocial
+	{
+		left: 16px;
+    	top: -11px;
+	}
+	
+}
+
+/* Tablets */
+@media (min-width:480px) and (max-width: 767px)
+{
+
+}
+
+/* Mobile */
+@media (max-width: 479px) 
+{
+	.itemService .details ul li
+	{
+		float:none;
+		margin-bottom:5px;
+		margin-left:0!important
+	}
+	.itemService .details ul li i
+	{
+		width:30px;
+		text-align:center
+	}
+	
+	.aboutUs .details .title,
+	.services .title,
+	.plans .titleStyle,
+	.joinUs .titleStyle,
+	.searchBox .titleSearch,
+	.breadcrumbs h2
+	{
+		font-size:25px;
+	}
+	
+	.searchBox .titleSearch
+	{
+		line-height:35px;
+	}
+	
+	.joinUs .desc,
+	.aboutUs .details .desc
+	{
+		font-size:20px;
+	}
+	
+	.breadcrumbs ul li
+	{
+		margin-bottom:10px;
+	}
+
+	.footer .info li a
+	{
+		font-size:16px;
+	}
+	
+	.contactUs .contactInfo
+	{
+		min-height:auto;
+		padding-top:30px;
+	}
+	
+	.tabs li:not(:last-of-type)
+	{
+		margin-left:40px;
+	}
+	.tabs li
+	{
+		font-size:16px;
+	}
+	
+}
